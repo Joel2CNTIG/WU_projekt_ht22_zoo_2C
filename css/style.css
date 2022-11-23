@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: white;
 }
 
 body {
@@ -21,6 +22,7 @@ header {
     justify-content: center;
     align-items: center;
     grid-area: he;
+    background-color: gray;
 }
 
 #omoss {
@@ -28,6 +30,7 @@ header {
     justify-content: center;
     align-items: flex-start;
     grid-area: om;
+    background-color: lightblue;
 }
 
 #bestall {
@@ -35,6 +38,7 @@ header {
     justify-content: center;
     align-items: flex-start;
     grid-area: be;
+    background-color: lightgoldenrodyellow;
 }
 
 #zoo {
@@ -42,6 +46,7 @@ header {
     justify-content: center;
     align-items: flex-start;
     grid-area: zo;
+    background-color: lightseagreen;
 }
 
 #djur {
@@ -49,4 +54,5 @@ header {
     justify-content: center;
     align-items: flex-start;
     grid-area: dj;
+    background-color: blanchedalmond;
 }
