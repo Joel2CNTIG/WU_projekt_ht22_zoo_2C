@@ -6,7 +6,7 @@
 
 }
 
-body {
+#grid-wrapper {
     display: grid;
     height: 100vh;
     grid-template-rows: 20vh 40vh 40vh;
@@ -23,13 +23,11 @@ header {
     justify-content: center;
     align-items: center;
     grid-area: he;
-    background-color: burlywood
+    background-color: burlywood;
 }
 
 #omoss {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
     grid-area: om;
     background-color: lightblue;
     margin: 30px;
@@ -65,4 +63,85 @@ header {
 h1 {
     font-family: 'Secular One', sans-serif;
     font-size: 3rem;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 2rem;
+}
+
+#grid-wrapper2 {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 20vh 40vh 40vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "he he"
+    "k1 k2 k3 k4"
+    "k5 k6 k7 k8";
+
+}
+
+#k1 {
+    display: flex;
+    grid-area: k1;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+#k2 {
+    display: flex;
+    grid-area: k2;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+#k3 {
+    display: flex;
+    grid-area: k3;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+#k4 {
+    display: flex;
+    grid-area: k4;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+#k5 {
+    display: flex;
+    grid-area: k5;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+#k6 {
+    display: flex;
+    grid-area: k6;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+#k7 {
+    display: flex;
+    grid-area: k7;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+#k8 {
+    display: flex;
+    grid-area: k8;
+    background-color: lightblue;
+    margin: 20px;
 }
