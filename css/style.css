@@ -28,7 +28,7 @@ header {
     justify-content: center;
     align-items: center;
     grid-area: he;
-    background-color: rgb(136, 79, 79);
+    background-color: rgb(219, 219, 163);
 }
 
 #omoss {
@@ -66,8 +66,8 @@ header {
 
 #djur {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
     flex-direction: column;
     grid-area: dj;
     background-color: rgb(68, 32, 32);
@@ -79,14 +79,18 @@ header {
     justify-content: center;
     align-items: flex-start;
     grid-area: fo;
-    background-color: rgb(136, 79, 79);
+    background-color: rgb(219, 219, 163);
     margin-top: 20px;
 
 }
 
-#kycklingbild {
-    width: 20px;
+#Kycklingbild {
+    width: 150px;
     height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 h1 {
@@ -115,11 +119,15 @@ h2 {
     justify-content: center;
     margin-top: 50px;
 }
+#footer_text {
+    background-color: rgb(219, 219, 163);
+    color: black
+}
 
 #grid-wrapper2 {
     display: grid;
     height: 100vh;
-    grid-template-rows: 20vh 35vh 35vh 10vh;
+    grid-template-rows: 15vh 37.5vh 37.5vh 10vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "he he he he"
