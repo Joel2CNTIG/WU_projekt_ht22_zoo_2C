@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,9 +10,10 @@
 }
 
 #grid-wrapper {
+    background-image: url(../img/animals/jake-nackos-C2PCa6DhlYE-unsplash.jpg);
     display: grid;
     height: 100vh;
-    grid-template-rows: 20vh 30vh 30vh 10vh;
+    grid-template-rows: 15vh 37.5vh 37.5vh 10vh;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "he he"
@@ -25,23 +28,30 @@ header {
     justify-content: center;
     align-items: center;
     grid-area: he;
-    background-color: burlywood;
+    background-color: rgb(136, 79, 79);
 }
 
 #omoss {
     display: flex;
     grid-area: om;
-    background-color: lightblue;
+    background-color: rgb(68, 32, 32);
     margin: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    
 }
 
 #bestall {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
     grid-area: be;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(68, 32, 32);
     margin: 30px;
+    border-radius: 10px;
 }
 
 #zoo {
@@ -49,26 +59,34 @@ header {
     justify-content: center;
     align-items: flex-start;
     grid-area: zo;
-    background-color: lightseagreen;
+    background-color: rgb(68, 32, 32);
     margin: 30px;
+    border-radius: 10px;
 }
 
 #djur {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-direction: column;
     grid-area: dj;
-    background-color: blanchedalmond;
+    background-color: rgb(68, 32, 32);
     margin: 30px;
+    border-radius: 10px;
 }
 #footer1 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     grid-area: fo;
-    background-color:grey;
-    margin-top: 30px;
+    background-color: rgb(136, 79, 79);
+    margin-top: 20px;
 
+}
+
+#kycklingbild {
+    width: 20px;
+    height: fit-content;
 }
 
 h1 {
@@ -76,35 +94,38 @@ h1 {
     font-size: 3rem;
 }
 
-#text {
+.text {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    margin: 20px;
 }
 
 h2 {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
     font-size: 2rem;
     font-family: 'Ubuntu', sans-serif;
+    background-color: white;
 }
 
 #button1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 #grid-wrapper2 {
     display: grid;
     height: 100vh;
-    grid-template-rows: 20vh 40vh 40vh;
+    grid-template-rows: 20vh 35vh 35vh 10vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-    "he he"
+    "he he he he"
     "k1 k2 k3 k4"
-    "k5 k6 k7 k8";
+    "k5 k6 k7 k8"
+    "fo fo fo fo";
 
 }
 
