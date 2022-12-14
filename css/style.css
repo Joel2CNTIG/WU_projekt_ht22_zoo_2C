@@ -131,11 +131,12 @@ h2 {
 #grid-wrapper2 {
     display: grid;
     height: 100vh;
-    grid-template-rows: 15vh 85vh;
+    grid-template-rows: 15vh 75vh 10vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "he he he he"
     "k1 k2 k3 k4"
+    "fo fo fo fo"
 ;
 
 }
@@ -182,3 +183,30 @@ h2 {
 .recommendation {
     margin: 20px;
 }
+
+#chicken_pictures {
+    height: 100px;
+    width: fit-content;
+}
+
+#footer2 {
+    background-color: brown;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    grid-area: fo;
+}
+
+#rickroll_button {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button_text {
+    color: black;
+}
+
