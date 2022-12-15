@@ -181,6 +181,7 @@ h2 {
 }
 
 .recommendation {
+    font-size: 1.2rem;
     margin: 20px;
 }
 
@@ -208,5 +209,13 @@ h2 {
 
 #button_text {
     color: black;
+}
+
+#chickenbutton1 {
+    margin: 20px;
+}
+
+.chickenbuttontext {
+    font-size: 1.5rem;
 }
 
