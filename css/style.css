@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@font-face {
+    font-family: TheChemicalParade;
+    src: url(../fonts/TheChemicalParade-PX4m.ttf);
+}
+
 
 * {
     margin: 0px;
@@ -78,8 +83,9 @@ header {
 }
 #footer1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
+    flex-direction: column;
     grid-area: fo;
     background-color: rgb(219, 219, 163);
     margin-top: 20px;
@@ -125,8 +131,12 @@ h2 {
     
 }
 #footer_text {
-    background-color: rgb(219, 219, 163);
-    color: black
+    color: black;
+    font-size: 1.5rem;
+}
+#footer_text_small {
+    color: black;
+    font-size: 1.3rem; 
 }
 
 #grid-wrapper2 {
@@ -187,6 +197,14 @@ h2 {
     font-family: 'Nova Square', cursive;
 }
 
+.arrow {
+    color: black;
+}
+
+.header_arrow {
+    justify-content: space-evenly;
+}
+
 .textpage2 {
     font-size: 1.5rem;
     color: black;
@@ -225,7 +243,7 @@ h2 {
     color: black;
 }
 
-#chickenbutton1 {
+.chickenbutton {
     margin: 20px;
 }
 
@@ -236,4 +254,61 @@ h2 {
 .chickens {
     height: 250px;
     width: 200px;
+    border-radius: 10px;
+}
+
+#grid-wrapper3 {
+    background: url(../img/menu_related/annie-spratt-im8y4BO2hso-unsplash.jpg);
+    background-size: cover;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 15vh 42.5vh 42.5vh ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "he he he"
+    "m1 m2 m3"
+    "m4 m5 m6"
+    "fo fo fo"
+;
+}
+
+#m1 {
+    grid-area: m1;
+}
+#m2 {
+    grid-area: m2;
+}
+#m3 {
+    grid-area: m3;
+}
+#m4 {
+    grid-area: m4;
+}
+#m5 {
+    grid-area: m5;
+}
+#m6 {
+    grid-area: m6;
+}
+
+.m {
+    margin: 20px;
+    padding-top: 10px;
+    background: url(../img/menu_related/jocelyn-morales-sUFVSodUHfo-unsplash.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+
+.foodpics {
+    border-radius: 5px;
+    width: 250px;
+    height: 166.6666667px;
+    margin: 20px;
+}
+
+.menutext {
+    color: black;
 }
